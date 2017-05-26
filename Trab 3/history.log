@@ -1,0 +1,105 @@
+Python 3.5.1 |Anaconda 4.0.0 (64-bit)| (default, Feb 16 2016, 09:49:46) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/GregoryNewton.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/Lagrange.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/bernier.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/gauss.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/maclaurin.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/pade.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/spline.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/tcheby.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/interpolacao.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3/main.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 3')
+Capitulo 5
+2a)
+
+a = -4.11267605634 
+b = 5.07042253521 
+c = 5.04225352113 
+d = -2.0
+
+2c e d) 
+O valor desejado e: -0.142028169014
+
+2e) Plotado
+
+3) Feito
+
+
+4a)
+
+Com n = 3, temos que F'''' = sen(x)
+ com isso usa-se diretamente na formula do erro com o valor maximo =
+ abs((sen(pi/2)*(pi/6)^(3+1))/4*(3+1)) = 4.6e-3 
+que esta dentro da ordem -2
+
+4b)
+
+Valor de x e y:
+ [ 0.          0.78539816  1.57079633] 
+ [ 0.          0.70710678  1.        ]
+4c)
+
+Erro de truncamento Greg Newton:
+ 0.0235368755554 
+
+4d)
+Plotado
+
+
+5a)
+Usaria interpolacao pois daria uma melhor precisao ja que podemos gerar os pontos exatos.
+
+5b) nao esta feito, pois nao tive tempo de converter para python
+
+
+5c)
+Resposta:  1.45161843153 
+Erro: 0.00774451135051
+
+5d)
+Resposta: 1.45161843153 
+Erro: 0.00774451135051
+
+
+6a):
+
+Erro: 0.000215149418343
+
+6b)
+Numero de pontos (grau +1): 7 
+Erro: 1.20631741364e-06
+
+
+Capitulo 6
+
+1a)
+Numero de pontos (grau +1): 4 
+Erro: 0.0012177740777
+
+
+1b)
+
+O grau n otimizado seria:  3 
+Os coeficientes seriam 1 - 1/6 + 1/24 
+E o erro maximo e: 0.00813765147456
+
+
+1c)
+
+Partindo de um polinomio com n = 5, e ignorando o T5 (para reduzir para n=3) 
+temos os coeficientes: [0, 0.9973958333333334, 0, -0.15625, 0, 0] 
+O erro maximo calculado foi: 0.000560575767144
+
+1d)
+
+Partindo de um polinomio com n = 7, e ignorando o T7 (para reduzir para n=5) 
+temos os coeficientes:
+ [0, 1.0000868055555556, 0, -0.16649305555555555, 0, 0.00798611111111111, 0, 0] 
+O erro maximo calculado foi: 0.00039099435877
+
+1e)
+
+
+1f) Plotado
+>>> 

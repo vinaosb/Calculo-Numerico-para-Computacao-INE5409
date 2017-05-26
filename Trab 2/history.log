@@ -1,0 +1,84 @@
+Python 3.5.1 |Anaconda 4.0.0 (64-bit)| (default, Feb 16 2016, 09:49:46) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/DivPol.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/Localiza.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/Multiplicidade.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/NRPoli.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/Restos.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/Roots.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2/mainpolinomio.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 2')
+
+
+Valor otimizado se tiver apenas 1 Newton Raphson: 0.01
+Valor otimizado caso tenha 2 Newton Raphson (com refinamento): 1e-07
+
+Valores testados: [  1.00000000e-01   1.00000000e-02   1.00000000e-03   1.00000000e-04
+   1.00000000e-05   1.00000000e-06   1.00000000e-07   1.00000000e-08
+   1.00000000e-09   1.00000000e-10   1.00000000e-11   1.00000000e-12
+   1.00000000e-13   1.00000000e-14   1.00000000e-15   1.00000000e-16
+   1.00000000e-17   1.00000000e-18   1.00000000e-19]
+
+
+
+Iteracoes Newton Raphson com polinomio reduzido: 57.0
+
+Iteracoes Newton Raphson com polinomio original: 8.0
+
+Iteracoes totais efetuadas: 65.0 
+
+
+
+Valores das Raizes
+
+Raiz numero: 1 
+Valor: (1-5.25589101159e-14j) 
+Multiplicidade: 3.0 
+Chute inicial: (1.94879043445-1.94879043445j)
+
+Raiz numero: 2 
+Valor: (1.1+3.67101043947e-13j) 
+Multiplicidade: 1.0 
+Chute inicial: (1.32053888142-1.32053888142j)
+
+Raiz numero: 3 
+Valor: (0.900000000005-1.88295134601e-12j) 
+Multiplicidade: 1.0 
+Chute inicial: (1.02881933473-1.02881933473j)
+
+Raiz numero: 4 
+Valor: (6.72584589638e-17+1j) 
+Multiplicidade: 1.0 
+Chute inicial: (0.707106781187-0.707106781187j)
+
+Raiz numero: 5 
+Valor: 0j 
+Multiplicidade: 0.0 
+Chute inicial: 0j
+
+Raiz numero: 6 
+Valor: 0j 
+Multiplicidade: 0.0 
+Chute inicial: 0j
+
+
+Valor das raizes pelo Octave: [(1.11022302462516e-16-0.999999999999998j), (-1.10000000001157-1.66881099646068e-11j), (-0.900000000006002-1.03123087860931e-11j), (-1.0000516755586+4.50036411031659e-05j), (-0.999935195062783+2.22505634491045e-05j), (-1.00001312936105-6.72541775503178e-05j)]
+
+
+Valor das raizes pelo Wolfram: [(0.9+0j), (0.999959+0j), (1.1+0j), 1j, (1.00002-3.51069e-05j), (1.00002+3.51069e-05j)]
+
+
+Valor das raizes pelo Phyton: [ -1.11022302e-15 +1.00000000e+00j   1.10000000e+00 +1.47897772e-11j
+   9.00000000e-01 +8.91115826e-12j   1.00004891e+00 -4.54443306e-05j
+   9.99936197e-01 -1.96351221e-05j   1.00001489e+00 +6.50794290e-05j]
+
+
+Valor exato: [0.9, 1, 1, 1, 1.1, 1j]
+
+Diferencas absolutas dos valores descobertos com o valor exato (erro total): 
+Diferenca pelo codigo: 6.87805368216e-12 
+Diferenca pelo Octave: 3.52170670403e-09 
+Diferenca pelo Wolfram 9.98767530458e-07 
+Diferenca pelo Roots do Phyton 3.34295768845e-09
+
+Com esses valores tem-se que o melhor valor e o do Roots do Phyton, seguido pelo do Octave, seguido do valor do Wolfram, e o pior sendo o do codigo feito.
+>>> 

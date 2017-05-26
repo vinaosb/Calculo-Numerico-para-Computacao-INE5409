@@ -1,0 +1,118 @@
+Python 3.5.1 |Anaconda 4.0.0 (64-bit)| (default, Feb 16 2016, 09:49:46) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/IntGauss.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/Newton2Num.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/Newton2Num2.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/PnH.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/Restos.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/Simpson.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/Trapezios.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/calcPolLegendre.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/decompLU.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/detAjustePn.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/fx1.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/fx2.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/fx3.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/interpolacao gregory newton.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/interpolacao.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+>>> runfile('C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/main.py', wdir='C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4')
+Capitulo 7
+
+Questao 1
+
+Questao 1a)
+Coeficientes:
+a =  0.993976624398 
+b =  0.988369280852
+
+Questao 1b)
+Modulo do Desvio Local =
+ [  7.03787367e-03   1.59999936e-03   5.12971038e-05   3.64507336e-02
+   2.52425062e-02   5.71905598e-03]
+
+Questao 1c)
+Plotado
+
+
+
+Questao 2)
+
+Questao 2a)
+Empregaria a funcao interpoladora quando tivesse valores exatos ou a funcao exata,
+e empregaria ajuste quando tivessem erros nas medicoes
+
+Questao 2b)
+Passar por todos os pontos dados
+
+Questao 2c)
+Passar o mais proximo possivel dos pontos dados de modo a ter o menor desvio possivel
+
+Questao 2d)
+Quando usa-se um polinomio Pn com n+1 pontos estamos obtendo um polinomio sem desvio, ou seja passa exatamente em cima dos pontos tabelados
+com isso temos que ele equivale ao proprio polinomio interpolador pela sua definicao
+
+
+
+Questao 3)
+
+Questao 3a)
+Coeficientes a e b do primeiro grau: [ 1.1074098   0.00138408] 
+Coeficientes a e b do segundo grau: [  7.98711647e-01   1.70500728e-02  -1.38369749e-04]
+
+Questao 3b)
+Diferenca dividida:
+ [  6.06060606e-03  -4.61814005e-05   1.36249474e-06  -2.93639508e-07
+   1.72213077e-08  -1.01243651e-09]
+
+Questao 3c)
+Plotado
+
+Questao 3d)
+Usarei a de segundo grau que aparenta melhor no grafico, 
+devido a interpolacao ser muito sinuosa e a linear nao captar a curvatura dos pontos
+
+
+
+Questao 4)
+
+Questao 4a)
+Matriz A:
+ [[ 2.1529      1.36471839]
+ [ 1.36471839  2.50595855]] 
+Vetor b
+ [ 1.32582382  2.45170961]
+Coeficientes a e b: [ 0.0033665   0.99196456]
+
+Questao 4b)
+[ 0.00196456  0.00121006  0.0021731   0.00183639]
+
+
+
+Capitulo 8:
+Valor exato para comparacao: 1.6504257587975428
+
+Questao 6.a)
+O n minimo para essa tolerancia e para o valor exato (nao estimado e sim exato) eh: 356826 
+O erro exato seria: 3.16227126085e-06
+
+Questao 6.b)
+O n minimo para essa tolerancia e para o valor exato (nao estimado e sim exato) eh: 20 
+O erro exato seria: 2.12020088908e-06
+
+Questao 6.c)
+O n minimo para essa tolerancia e para o valor exato (nao estimado e sim exato) eh: 5 
+O erro exato seria: 8.78877601806e-08
+
+Questao 6.d)
+Os coeficientes do interpolador seriam:
+ 1.7082785906 *x^3 + -1.42974344646 *x^2 + 1.7446531836 *x^1 + -0.093823142727
+
+Questao 6.e)
+O valor da integral pelo interpolador eh: 1.65493468721 
+Sendo de um erro muito maior, e portanto nao seria utilizavel pela aplicacao.
+
+Questao 6.f)
+Plotado
+C:/Users/owner/Documents/Programacao/calculo numerico floripa/Trab 4/main.py:18: ComplexWarning: Casting complex values to real discards the imaginary part
+  Tp = np.linspace(T[0],T[len(T)-1])
+>>> 
